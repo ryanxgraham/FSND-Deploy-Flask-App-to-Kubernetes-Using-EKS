@@ -1,7 +1,7 @@
 FROM python:stretch
-COPY . /examples
+COPY . /app
 
-WORKDIR /examples
+WORKDIR /app
 
 RUN pip install --upgrade pip
 RUN pip install pytest==4.0.2
